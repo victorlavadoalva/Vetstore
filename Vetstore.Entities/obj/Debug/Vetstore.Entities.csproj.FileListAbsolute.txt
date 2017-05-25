@@ -1,0 +1,8 @@
+c:\users\user\documents\visual studio 2017\Projects\Vetstore\Vetstore.Entities\bin\Debug\Vetstore.Entities.dll
+c:\users\user\documents\visual studio 2017\Projects\Vetstore\Vetstore.Entities\bin\Debug\Vetstore.Entities.pdb
+c:\users\user\documents\visual studio 2017\Projects\Vetstore\Vetstore.Entities\obj\Debug\Vetstore.Entities.dll
+c:\users\user\documents\visual studio 2017\Projects\Vetstore\Vetstore.Entities\obj\Debug\Vetstore.Entities.pdb
+C:\Users\MSI\Desktop\Vetstore\Vetstore.Entities\bin\Debug\Vetstore.Entities.dll
+C:\Users\MSI\Desktop\Vetstore\Vetstore.Entities\bin\Debug\Vetstore.Entities.pdb
+C:\Users\MSI\Desktop\Vetstore\Vetstore.Entities\obj\Debug\Vetstore.Entities.dll
+C:\Users\MSI\Desktop\Vetstore\Vetstore.Entities\obj\Debug\Vetstore.Entities.pdb
