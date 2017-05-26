@@ -29,11 +29,13 @@ namespace Vetstore.Persistence.Repositories
             _Context.Set<TEntity>().RemoveRange(entities);
         }
 
-        public TEntity Get (int? id)
+        public TEntity Get(int? id)
         {
             return _Context.Set<TEntity>().Find(id);
         }
 
+
+         
         public IEnumerable<TEntity> GetAll()
         {
             return _Context.Set<TEntity>().ToList();
@@ -57,5 +59,6 @@ namespace Vetstore.Persistence.Repositories
         {
             throw new NotImplementedException();
         }
+
     }
 }
