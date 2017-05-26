@@ -10,6 +10,8 @@ namespace VetStore.MVC.App_Start
 
     using Ninject;
     using Ninject.Web.Common;
+    using Vetstore.Entities.IRepositories;
+    using Vetstore.Persistence.Repositories;
 
     public static class NinjectWebCommon 
     {
@@ -61,6 +63,16 @@ namespace VetStore.MVC.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
+            //UnityOfWork
+            kernel.Bind<IUnityOfWork>().To<UnityOfWork>();
+
+            //VetStoreContext
+            kernel.Bind<VetstoreDbContext>().To<VetstoreDbContext>();
+
+            //AtencionesRepository
+            kernel.Bind<IAtencionRepository>().To<AtencionRepository>();
+
+            
         }        
     }
 }
