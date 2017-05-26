@@ -21,7 +21,8 @@ namespace Vetstore.Persistence.EntitiesConfiguration
 
             //Relations Configuration
 
-            HasRequired(c => c.Direccion);
+            HasRequired(c => c.Direccion)
+                .WithRequiredPrincipal(l => l.Local);
 
 
         }
