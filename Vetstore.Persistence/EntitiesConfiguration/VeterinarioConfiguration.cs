@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,11 @@ namespace Vetstore.Persistence.EntitiesConfiguration
         public VeterinarioConfiguration()
         {
             ToTable("Veterinarios");
+
             HasKey(c => c.VeterinarioId);
+
+            Property(a => a.VeterinarioId)
+             .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
 
             //Relations Configuration
 

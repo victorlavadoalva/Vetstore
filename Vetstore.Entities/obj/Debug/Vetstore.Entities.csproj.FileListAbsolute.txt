@@ -6,3 +6,7 @@ C:\Users\MSI\Desktop\Vetstore\Vetstore.Entities\bin\Debug\Vetstore.Entities.dll
 C:\Users\MSI\Desktop\Vetstore\Vetstore.Entities\bin\Debug\Vetstore.Entities.pdb
 C:\Users\MSI\Desktop\Vetstore\Vetstore.Entities\obj\Debug\Vetstore.Entities.dll
 C:\Users\MSI\Desktop\Vetstore\Vetstore.Entities\obj\Debug\Vetstore.Entities.pdb
+C:\Users\MSI\Documents\Visual Studio 2017\Projects\Vetstore\Vetstore.Entities\bin\Debug\Vetstore.Entities.dll
+C:\Users\MSI\Documents\Visual Studio 2017\Projects\Vetstore\Vetstore.Entities\bin\Debug\Vetstore.Entities.pdb
+C:\Users\MSI\Documents\Visual Studio 2017\Projects\Vetstore\Vetstore.Entities\obj\Debug\Vetstore.Entities.dll
+C:\Users\MSI\Documents\Visual Studio 2017\Projects\Vetstore\Vetstore.Entities\obj\Debug\Vetstore.Entities.pdb

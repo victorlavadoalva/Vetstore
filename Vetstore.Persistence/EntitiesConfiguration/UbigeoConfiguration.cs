@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,11 @@ namespace Vetstore.Persistence.EntitiesConfiguration
         public UbigeoConfiguration()
         {
             ToTable("Ubigeos");
+
             HasKey(c => c.UbigeoId);
+
+            Property(a => a.UbigeoId)
+             .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
 
             //Relations Configuration
             HasRequired(c => c.Departamento)

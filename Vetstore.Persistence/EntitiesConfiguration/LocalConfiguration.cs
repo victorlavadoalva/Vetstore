@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,9 @@ namespace Vetstore.Persistence.EntitiesConfiguration
         {
             ToTable("Locales");
             HasKey(c => c.LocalId);
+
+            Property(a => a.LocalId)
+                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
 
             //Relations Configuration
 

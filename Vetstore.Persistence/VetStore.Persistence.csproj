@@ -66,10 +66,6 @@
     <Compile Include="EntitiesConfiguration\VacunaConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\VentaConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\VeterinarioConfiguration.cs" />
-    <Compile Include="Migrations\201705231916558_Initial.cs" />
-    <Compile Include="Migrations\201705231916558_Initial.Designer.cs">
-      <DependentUpon>201705231916558_Initial.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\AtencionRepository.cs" />
@@ -108,11 +104,6 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201705231916558_Initial.resx">
-      <DependentUpon>201705231916558_Initial.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

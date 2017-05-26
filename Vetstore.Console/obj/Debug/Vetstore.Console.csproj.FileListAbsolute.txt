@@ -24,3 +24,16 @@ C:\Users\MSI\Desktop\Vetstore\Vetstore.Console\bin\Debug\EntityFramework.xml
 C:\Users\MSI\Desktop\Vetstore\Vetstore.Console\obj\Debug\Vetstore.Console.csprojResolveAssemblyReference.cache
 C:\Users\MSI\Desktop\Vetstore\Vetstore.Console\obj\Debug\Vetstore.Console.exe
 C:\Users\MSI\Desktop\Vetstore\Vetstore.Console\obj\Debug\Vetstore.Console.pdb
+C:\Users\MSI\Documents\Visual Studio 2017\Projects\Vetstore\Vetstore.Console\bin\Debug\Vetstore.Console.exe.config
+C:\Users\MSI\Documents\Visual Studio 2017\Projects\Vetstore\Vetstore.Console\bin\Debug\Vetstore.Console.exe
+C:\Users\MSI\Documents\Visual Studio 2017\Projects\Vetstore\Vetstore.Console\bin\Debug\Vetstore.Console.pdb
+C:\Users\MSI\Documents\Visual Studio 2017\Projects\Vetstore\Vetstore.Console\bin\Debug\Vetstore.Entities.dll
+C:\Users\MSI\Documents\Visual Studio 2017\Projects\Vetstore\Vetstore.Console\bin\Debug\Vetstore.Persistence.dll
+C:\Users\MSI\Documents\Visual Studio 2017\Projects\Vetstore\Vetstore.Console\bin\Debug\EntityFramework.dll
+C:\Users\MSI\Documents\Visual Studio 2017\Projects\Vetstore\Vetstore.Console\bin\Debug\Vetstore.Entities.pdb
+C:\Users\MSI\Documents\Visual Studio 2017\Projects\Vetstore\Vetstore.Console\bin\Debug\Vetstore.Persistence.pdb
+C:\Users\MSI\Documents\Visual Studio 2017\Projects\Vetstore\Vetstore.Console\bin\Debug\Vetstore.Persistence.dll.config
+C:\Users\MSI\Documents\Visual Studio 2017\Projects\Vetstore\Vetstore.Console\bin\Debug\EntityFramework.xml
+C:\Users\MSI\Documents\Visual Studio 2017\Projects\Vetstore\Vetstore.Console\obj\Debug\VetStore.Console.csprojResolveAssemblyReference.cache
+C:\Users\MSI\Documents\Visual Studio 2017\Projects\Vetstore\Vetstore.Console\obj\Debug\Vetstore.Console.exe
+C:\Users\MSI\Documents\Visual Studio 2017\Projects\Vetstore\Vetstore.Console\obj\Debug\Vetstore.Console.pdb

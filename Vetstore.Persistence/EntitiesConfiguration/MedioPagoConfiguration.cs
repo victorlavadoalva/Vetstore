@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,11 @@ namespace Vetstore.Persistence.EntitiesConfiguration
         public MedioPagoConfiguration()
         {
             ToTable("MediosPago");
+
             HasKey(c => c.MedioPagoId);
+
+            Property(a => a.MedioPagoId)
+             .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
 
             //Relations Configuration
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,11 @@ namespace Vetstore.Persistence.EntitiesConfiguration
         public ServicioConfiguration()
         {
             ToTable("Servicios");
+
             HasKey(c => c.ServicioId);
+
+            Property(a => a.ServicioId)
+             .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
 
             Map<ServicioClinico>(m => m.Requires("Discriminator").HasValue("ServicioClinico"));
             Map<ServicioEstetico>(m => m.Requires("Discriminator").HasValue("ServicioEstetico"));
